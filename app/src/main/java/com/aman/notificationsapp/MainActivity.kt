@@ -27,9 +27,6 @@ open class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btnSendNotification.setOnClickListener {
-
-
-
             FirebaseMessaging.getInstance().token
                 .addOnCompleteListener(OnCompleteListener { task ->
                     if (!task.isSuccessful) {
@@ -39,10 +36,8 @@ open class MainActivity : AppCompatActivity() {
 
                     // Get new FCM registration token
                     val token = task.result
-
                     Log.d(TAG, token)
                     sendNotification(token)
-                    Toast.makeText(this@MainActivity, token, Toast.LENGTH_SHORT).show()
                 })
 
         }
