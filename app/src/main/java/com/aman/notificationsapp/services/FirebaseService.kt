@@ -20,7 +20,6 @@ class FirebaseService :FirebaseMessagingService() {
         if(message.data != null){
             var map : Map<String, String> = message.data
             if(map["message"] == "1"){
-                Log.e(TAG," in condition")
                 if (Settings.canDrawOverlays(this@FirebaseService)) {
                     val intent = Intent(this@FirebaseService, MainActivity::class.java)
                     intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
