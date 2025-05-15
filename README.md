@@ -1,4 +1,5 @@
-# NotificationsApp
+# 🔔 Firebase Push Notification with Overlay Launch - Android
+This Android application demonstrates how to send push notifications using Firebase Cloud Messaging (FCM) and launch the app on message reception using overlay permissions. It also showcases how to retrieve the FCM registration token and send a notification using Volley.
 
  ---
 ## Prerequisites
