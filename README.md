@@ -8,3 +8,10 @@ This Android application demonstrates how to send push notifications using Fireb
 - Minimum SDK **21** (Android 5.0 Lollipop).
 
 ---
+
+## 🧠 Learning Outcome
+- How to send and receive data-based FCM push notifications.
+- Handling foreground and background notification behavior.
+- Managing overlay permissions dynamically.
+
+
