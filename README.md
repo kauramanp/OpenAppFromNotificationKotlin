@@ -12,3 +12,7 @@ This Android application demonstrates how to send push notifications using Fireb
 - How to send and receive data-based FCM push notifications.
 - Handling foreground and background notification behavior.
 - Managing overlay permissions dynamically.
+
+---
+## 🔐 Note
+Never expose your FCM server key in public repositories. Use secure server-side environments for production.
